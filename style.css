@@ -105,20 +105,25 @@ h2 {
 
 #about-me h1 {
   font-size: 65px;
-  margin-top: 90px;
   color: #ffa8a8;
+  text-align: right;
+  margin-right: 250px;
 }
 
 #about-me p {
   
   font-size: 25px;
   color: #fff8f6;
-  margin-top: -1cm;
+  float: right;
+  max-width: 76%;
+  margin-left: 20px;
+  flex: 1;
 }
 
 .profile_image {
   width: 500px;
-  height: fit-content;
+  max-width: 300%;
+  height: auto;
   vertical-align: middle;
   margin: 5px;
   border-radius: 100%;
